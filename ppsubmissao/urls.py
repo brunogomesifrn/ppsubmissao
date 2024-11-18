@@ -21,11 +21,13 @@ urlpatterns = [
     
     path('', include('apps.core')),
 
-    path('eventos/', include('apps.eventos')),
+    path('avaliacoes/', include('apps.avaliacoes')),
 
     path('submissoes/', include('apps.submissoes')),
 
     path('usuarios/', include('apps.usuarios')),
+
+    path('dashboard/', include('apps.dashboard')),
 
     path('admin/', admin.site.urls),
 ]

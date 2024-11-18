@@ -6,6 +6,6 @@ from .views import home
 
 
 urlpatterns = [
-    path('', home, name='home_eventos')  
+    path('', home, name='home_usuarios')  
 ]
 '''
