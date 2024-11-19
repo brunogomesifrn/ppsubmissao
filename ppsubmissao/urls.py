@@ -23,12 +23,14 @@ urlpatterns = [
     
     path('', include('apps.core.urls')),
 
-    #path('avaliacoes/', include('apps.avaliacoes.urls')),
+    path('dashboard/', include('apps.dashboard.urls')),
 
-    #path('submissoes/', include('apps.submissoes.urls')),
+    path('submissoes/', include('apps.submissoes.urls')),
 
-    #path('usuarios/', include('apps.usuarios.urls')),
+    path('avaliacoes/', include('apps.avaliacoes.urls')),
 
-    #path('dashboard/', include('apps.dashboard.urls')),
+    path('usuarios/', include('apps.usuarios.urls')),
+
+    
     
 ]
