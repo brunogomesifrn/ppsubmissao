@@ -1,4 +1,4 @@
-# e-Narrativas
+# Sistema de Submissões
 
 ## Instalação:
 1. Criar o ambiente virtual para instalar as bibliotecas (se o primeiro comando a seguir não funcionar, utilizar o segundo):
