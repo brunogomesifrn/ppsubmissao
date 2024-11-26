@@ -25,13 +25,13 @@
 - **usuario**: responsável pelo gerenciamento de usuários e permissões de acesso ao projeto.
 
 ## Templates e Statics
-- As pastas **templates** e **statics** na raiz do projeto servem apenas para as bases que serão exportadas nas demais páginas do projeto, ou seja, estará o layout modularizado;
+- As pastas **templates** e **statics** na raiz do projeto servem apenas para as bases do layout que serão exportadas nas páginas com conteúdos do projeto;
 - Cada aplicação possui suas próprias pastas **templates** e **static**, então as páginas com conteúdos e estilos específicos devem ser criados na própria aplicação;
 
 ## Trabalho em brachs:
-- Quando for modificar alguma aplicação do projeto, deve usar a brach de mesmo nome. Por exemplo: Se for alterar algo na aplicação **submissoes**, usar a branch **submissoes**. A única exceção é se alterar algum arquivo de configuração geral, como settings.py ou o urls.py principal, então deve usar a brach **core**.
+- Quando for modificar alguma aplicação do projeto, deve usar a brach de mesmo nome. Por exemplo: Se for alterar algo na aplicação **submissoes**, usar a branch **submissoes**. A única exceção é se alterar apenas arquivos de configuração geral, como settings.py ou o urls.py principal, então deve usar a brach **core**.
 - Comandos (supondo que irá alterar algo na app indicador):
-    - Atualizar branchs do github no repositório local:
+    - Atualizar branchs do github no repositório local (projeto precisa estar atualizado):
         - git pull
     - Verificar em qual branch está no momento (aparece um * do lado do nome):
         - git branch
